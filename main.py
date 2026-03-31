@@ -9,7 +9,7 @@ def main_page(page: ft.Page):
     name_input = ft.TextField()
 
 
-    def on_button_click(e):
+    def on_button_click():
         nonlocal count 
         count += 1
         text_counter.value = f"Нажато: {count} раз"
